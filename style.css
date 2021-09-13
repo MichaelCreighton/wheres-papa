@@ -42,15 +42,18 @@ p {
     padding: 10px 15px;
 }
 header {
+    position: relative;
     background: url('./assets/map-2088307_1280.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 20px;
     height: 50vh;
-    /* opacity: 0.3; */
 }
 
+.som {
+    position: absolute;
+}
 
 .logo {
     font-family: 'Ubuntu Condensed', sans-serif;
